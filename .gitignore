@@ -4,3 +4,4 @@
 .Rproj.user
 content/
 configs/[0-9]*
+configs/global/api/*
