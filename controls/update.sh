@@ -2,4 +2,5 @@
 
 docker pull dm3ll3n/shinystudio
 
-git pull https://github.com/dm3ll3n/ShinyStudio
+#git pull https://github.com/dm3ll3n/ShinyStudio
+git pull https://github.com/SymbolixAU/ShinyStudio
