@@ -24,7 +24,6 @@ services:
       - '/var/run/docker.sock:/var/run/docker.sock'
       - './configs/${SITEPORT}/img:/opt/shinyproxy/templates/grid-layout/assets/img:z'
       - "./configs/${SITEPORT}/application.yml:/opt/shinyproxy/application.yml:z"
-      - "./configs/${SITEPORT}/api:/api"
     environment:
       - APPLICATION_LOGS_TO_STDOUT=false
       - SITEPORT=$SITEPORT
